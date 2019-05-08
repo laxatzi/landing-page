@@ -1,1 +1,48 @@
 
+:root {
+   --docMain: rgb(77, 78, 84);
+   --docSecond: rgb(0,0,0);
+   --docBgMain:  #fff;
+   --docBgSecond: #d4d0d0;
+   --docDanger: rgb(233, 41, 41);
+ }
+ 
+ html {
+   box-sizing: border-box;
+   font-size: 10px;
+ }
+ 
+ *,
+ *:before,
+ *:after {
+      box-sizing: inherit;
+ }
+ 
+ body {
+   margin: 0;
+   padding: 0;
+   color: var(--docMain);
+   background-color: var(--docBgMain);
+   font-family: "Lato", helvetica, arial, sans-serif;
+   font-size: 2rem;
+   text-shadow: 0, 2px, 0 rgba(0,0,0, .07);
+   -webkit-overflow-scrolling: touch;   
+   overflow-y: scroll; 
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-weight: bold;
+   text-align: center;
+ }
+ p {
+   line-height: 1.45;
+   margin-bottom: 1.5rem;
+   text-align: center; 
+   font-weight: 300;
+   font-size: 100%;
+ }
