@@ -173,3 +173,10 @@ p.logo {
 .feature-item {
   display: flex;
 }
+
+/* Video section */
+#video-section {
+  display: flex;
+  justify-content: center;
+  margin: 6rem;
+}
