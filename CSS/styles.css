@@ -1,6 +1,6 @@
 
 :root {
-   --docSecond: rgb(127, 129, 136);
+   --docSecond: rgb(69, 70, 75);
    --docMain: rgb(0,0,0);
    --docBgMain:  #eee;
    --docBgSecond: #ddd;
@@ -224,3 +224,34 @@ p.price-tag {
   align-items: center;
   margin-bottom: 20px;
 }
+
+#footer-section {
+  background-color: var(--docBgSecond);
+  margin: 4rem 0 0;
+  display: flex;
+  flex-direction: column;
+}
+.footer-menu ul {
+  display: flex;
+  justify-content: end;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu li {
+  padding: 0;
+  margin: 0;
+}
+.footer-menu a {
+  padding: 1rem 1.5rem;
+}
+
+.copyright small {
+  display: flex;
+  justify-content: end;
+  padding-right: 2rem;
+  color: var(--docSecond);
+}
+
+
+
