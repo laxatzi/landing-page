@@ -200,4 +200,9 @@ p.logo {
 .pricing-body {
   padding: 0 15%;
 }
-
+.pricing-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
