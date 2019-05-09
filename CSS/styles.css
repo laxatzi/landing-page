@@ -180,3 +180,15 @@ p.logo {
   justify-content: center;
   margin: 6rem;
 }
+
+/* Pricing Section */
+#pricing-section {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-item {
+  border: 1px solid black;
+  padding: 1.5rem 5%;
+}
