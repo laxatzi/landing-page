@@ -1,10 +1,10 @@
 
 :root {
-   --docMain: rgb(77, 78, 84);
-   --docSecond: rgb(0,0,0);
-   --docBgMain:  #fff;
-   --docBgSecond: #d4d0d0;
-   --docDanger: rgb(233, 41, 41);
+   --docSecond: rgb(127, 129, 136);
+   --docMain: rgb(0,0,0);
+   --docBgMain:  #eee;
+   --docBgSecond: #ddd;
+   --docWarning: #F1C40F;
  }
  
  html {
