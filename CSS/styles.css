@@ -39,8 +39,6 @@
  h6 {
    font-weight: bold;
    text-align: center;
-   padding: 0;
-   margin: 0;
  }
  p {
    line-height: 1.45;
@@ -86,6 +84,9 @@ header {
   display:flex;
   width: 100%;
   position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: var(--docBgMain);
 }
  
 .brand {
@@ -113,9 +114,10 @@ p.logo {
 
 .container {
   width: 80%;
-  margin: 0 auto;
+  margin:0 auto;
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
 }
 #contact-section {
   display: flex;
