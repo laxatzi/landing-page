@@ -199,12 +199,17 @@ p.logo {
 .pricing-body {
   padding: 0 15%;
 }
+
 .pricing-body li {
   font-size: 1.75rem;
   padding-bottom: 1rem;
+  text-align: left;
 }
 .pricing-body li:last-of-type {
   padding-bottom: 0;
+}
+p.price-tag {
+  font-size: 3rem;
 }
 .pricing-footer {
   display: flex;
