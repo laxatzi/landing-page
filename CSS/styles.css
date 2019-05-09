@@ -145,7 +145,7 @@ p.logo {
 
 /* Features section */
 #features-section {
-  margin-top: 2rem;
+  margin-top: 6rem;
   display: flex;
   flex-direction: column;
 }
@@ -183,14 +183,13 @@ p.logo {
 
 /* Pricing Section */
 #pricing-section {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
 }
 
 .pricing-item {
   border: 1px solid black;
-  width: 30%; 
+  width: 32%; 
 }
 .pricing-header h3 {
   background-color: var(--docBgSecond);
