@@ -62,8 +62,9 @@
    padding: 1rem 1.5rem;
    background-color: var(--docDistinct);
    border: transparent;
-   font-size: 2rem;
+   font-size: 1.75rem;
    font-weight: 300;
+   text-transform: uppercase;
    border-radius: 2px;
    -webkit-border-radius: 2px;
    -moz-border-radius: 2px;
@@ -112,7 +113,6 @@ p.logo {
   flex-direction: column;
 }
 #contact-section {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
 }
@@ -131,4 +131,7 @@ p.logo {
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     font-size: 1.5rem;
+}
+.email-contact input[type="submit"] {
+  font-weight: bold; 
 }
