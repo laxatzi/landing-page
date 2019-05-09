@@ -39,13 +39,15 @@
  h6 {
    font-weight: bold;
    text-align: center;
+   padding: 0;
+   margin: 0;
  }
  p {
    line-height: 1.45;
    margin-bottom: 1.5rem;
    text-align: center; 
    font-weight: 300;
-   font-size: 100%;
+   font-size: 1.8rem;
  }
 
  a {
@@ -58,6 +60,10 @@
  li {
    list-style-type: none;
  }
+ img {
+  vertical-align: middle;
+  padding: 10px;
+}
  input[type="submit"] {
    padding: 1rem 1.5rem;
    background-color: var(--docDistinct);
@@ -89,8 +95,6 @@ header {
 }
 .brand img {
   width: 10%;
-  vertical-align: middle;
-  padding: 10px;
 }
 p.logo {
   font-size: 3rem;
@@ -134,4 +138,35 @@ p.logo {
 }
 .email-contact input[type="submit"] {
   font-weight: bold; 
+}
+
+/* Features section */
+#features-section {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.feature-text {
+  flex: 5;
+}
+.feature-text h2 {
+  font-size: 2.5rem;
+  text-align: left;
+}
+
+.feature-text p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.feature-icon {
+  flex: 1;
+  text-align: center;
+}
+.feature-icon img {
+  width: 50%;
+}
+.feature-item {
+  display: flex;
 }
