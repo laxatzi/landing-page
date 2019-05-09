@@ -190,5 +190,14 @@ p.logo {
 
 .pricing-item {
   border: 1px solid black;
-  padding: 1.5rem 5%;
+  width: 30%; 
 }
+.pricing-header h3 {
+  background-color: var(--docBgSecond);
+  margin: 0;
+  padding: 20px 0;
+}
+.pricing-body {
+  padding: 0 15%;
+}
+
