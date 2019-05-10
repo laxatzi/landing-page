@@ -303,6 +303,29 @@ p.price-tag {
 
 }
 
+/* Features section */
+#features-section {
+  margin-top: 4rem;
+
+}
+
+.feature-text h2 {
+  font-size: 1.75rem;
+  text-align: center;
+}
+.feature-text p {
+  text-align: center;
+}
+.feature-icon {
+  display: none;
+}
+
+.feature-item {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
 
 @media screen and (max-width: 370px) {
   .brand img {
