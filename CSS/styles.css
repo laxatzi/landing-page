@@ -255,5 +255,27 @@ p.price-tag {
   color: var(--docSecond);
 }
 
+@media screen and (max-width: 800px) {
+  header {
+    display:flex;
+    flex-direction: column;
+  }
+   
+.brand {
+  align-items: center;
+  justify-content: center;
+}
 
+.nav-menu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-menu a {
+  font-size: 2rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;  
+}
 
+}
