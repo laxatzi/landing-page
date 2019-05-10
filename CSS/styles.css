@@ -364,30 +364,17 @@ p.price-tag {
 }
 /* FOOTER */
 #footer-section {
-  background-color: var(--docBgSecond);
-  margin: 4rem 0 0;
-  display: flex;
-  flex-direction: column;
+  margin: 2rem 0 0;
 }
 .footer-menu ul {
-  display: flex;
-  justify-content: end;
-  padding: 0;
-  margin: 0;
+  justify-content: center;
 }
 
-.footer-menu li {
-  padding: 0;
-  margin: 0;
-}
 .footer-menu a {
-  padding: 1rem 1.5rem;
+  padding: .75rem 1rem;
 }
 
 .copyright small {
-  display: flex;
-  justify-content: end;
-  padding-right: 2rem;
-  color: var(--docSecond);
+  justify-content: center;
 }
 }
