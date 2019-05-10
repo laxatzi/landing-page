@@ -226,6 +226,7 @@ p.price-tag {
   align-items: center;
   margin-bottom: 20px;
 }
+/* FOOTER */
 
 #footer-section {
   background-color: var(--docBgSecond);
@@ -323,7 +324,7 @@ p.price-tag {
 .feature-item {
   display: flex;
   width: 80%;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 /* Pricing Section */
@@ -341,4 +342,52 @@ p.price-tag {
     width: 20%;
   }
 
+  /* Pricing Section */
+#pricing-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-item {
+  width: 90%; 
+}
+.pricing-header h3 {
+  padding: 10px;
+}
+.pricing-body {
+  padding: 0 5%;
+  align-items: center;
+}
+
+.pricing-body li {
+  padding-bottom: .75rem;
+}
+/* FOOTER */
+#footer-section {
+  background-color: var(--docBgSecond);
+  margin: 4rem 0 0;
+  display: flex;
+  flex-direction: column;
+}
+.footer-menu ul {
+  display: flex;
+  justify-content: end;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu li {
+  padding: 0;
+  margin: 0;
+}
+.footer-menu a {
+  padding: 1rem 1.5rem;
+}
+
+.copyright small {
+  display: flex;
+  justify-content: end;
+  padding-right: 2rem;
+  color: var(--docSecond);
+}
 }
