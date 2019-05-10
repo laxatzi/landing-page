@@ -302,8 +302,6 @@ p.price-tag {
    font-size: 1.25rem;
 }
 
-}
-
 /* Features section */
 #features-section {
   margin-top: 4rem;
@@ -335,6 +333,8 @@ p.price-tag {
 .pricing-item {
   width: 60%; 
   margin: 0 auto 10px;
+}
+
 }
 
 @media screen and (max-width: 450px) {
