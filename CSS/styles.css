@@ -326,9 +326,19 @@ p.price-tag {
   margin: 0 auto;
 }
 
+/* Pricing Section */
+#pricing-section {
+    flex-direction: column;
+}
 
-@media screen and (max-width: 370px) {
+.pricing-item {
+  width: 60%; 
+  margin: 0 auto 10px;
+}
+
+@media screen and (max-width: 450px) {
   .brand img {
     width: 20%;
   }
+
 }
